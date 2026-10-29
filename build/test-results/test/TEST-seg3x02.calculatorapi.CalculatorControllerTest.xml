@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="seg3x02.calculatorapi.CalculatorControllerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-10-28T21:23:13" hostname="ALEXTHINKPAD" time="1.694">
+  <properties/>
+  <testcase name="multiply endpoint returns product()" classname="seg3x02.calculatorapi.CalculatorControllerTest" time="1.302"/>
+  <testcase name="add endpoint returns sum()" classname="seg3x02.calculatorapi.CalculatorControllerTest" time="0.108"/>
+  <testcase name="divide endpoint returns quotient()" classname="seg3x02.calculatorapi.CalculatorControllerTest" time="0.103"/>
+  <testcase name="subtract endpoint returns difference()" classname="seg3x02.calculatorapi.CalculatorControllerTest" time="0.101"/>
+  <testcase name="divide by zero returns bad request()" classname="seg3x02.calculatorapi.CalculatorControllerTest" time="0.069"/>
+  <system-out><![CDATA[17:23:09.210 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [seg3x02.calculatorapi.CalculatorControllerTest]: CalculatorControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:23:09.413 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration seg3x02.calculatorapi.CalculatorApiApplication for test class seg3x02.calculatorapi.CalculatorControllerTest
+2026-10-28T17:23:10.109-04:00  INFO 37980 --- [calculator-api] [    Test worker] s.c.CalculatorControllerTest             : Starting CalculatorControllerTest using Java 17.0.12 with PID 37980 (started by alexm in C:\UniClasses\Year 4\SEG3502\lab6\calculator-api)
+2026-10-28T17:23:10.115-04:00  INFO 37980 --- [calculator-api] [    Test worker] s.c.CalculatorControllerTest             : No active profile set, falling back to 1 default profile: "default"
+2026-10-28T17:23:13.322-04:00  INFO 37980 --- [calculator-api] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-10-28T17:23:13.322-04:00  INFO 37980 --- [calculator-api] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-10-28T17:23:13.327-04:00  INFO 37980 --- [calculator-api] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2026-10-28T17:23:13.399-04:00  INFO 37980 --- [calculator-api] [    Test worker] s.c.CalculatorControllerTest             : Started CalculatorControllerTest in 3.747 seconds (process running for 5.38)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
